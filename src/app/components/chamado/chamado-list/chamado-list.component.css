@@ -12,9 +12,10 @@ mat-form-field {
 }
 
 button {
-   width: 100%;
+   width: 10%;
+   margin: auto;
+   left: 1rem;
 }
-
 h1 {
    width: 100%;
    text-align: center;

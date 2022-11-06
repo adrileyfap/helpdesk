@@ -2,8 +2,7 @@
 
    <h1>Listando chamados</h1>
 
-   <button routerLink="create" class="mat-elevation-z8" mat-stroked-button color="primary">Novo chamado</button>
- 
+   
    <mat-form-field appearance="standard">
       <mat-label>Filter</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
@@ -65,7 +64,9 @@
                </a>
             </td>
          </ng-container>
-
+<br>
+         <button routerLink="create" class="mat-elevation-z8" mat-stroked-button color="primary">Novo chamado</button>
+ 
          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
       </table>
