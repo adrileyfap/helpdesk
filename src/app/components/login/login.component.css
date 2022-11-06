@@ -1,0 +1,49 @@
+.container {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(7, 109, 29) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .form {
+    width: 25rem;
+    margin: auto;
+    background-color: rgb(235, 236, 235);
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+ 
+ h2 {
+    width: 100%;
+    text-align: center;
+    
+ }
+ 
+ #btn1 {
+    width: 100%;
+    text-align: center;
+    
+ }
+ img {
+    height: 10em;
+    width: 90%;
+    margin: auto;
+    
+ }
+ 
+ .full-width {
+    width: 100%;
+ }
+ 
+ button {
+    margin-top: 1.5rem;
+ }
+ 
+ mat-icon {
+    opacity: .6;
+ }
